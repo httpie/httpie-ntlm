@@ -31,7 +31,7 @@ setup(
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python',
-        'Environment :: Plugins'
+        'Environment :: Plugins',
         'License :: OSI Approved :: BSD License',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Utilities'
