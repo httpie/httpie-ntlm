@@ -12,7 +12,7 @@ Installation
     $ pip install httpie-ntlm
 
 
-You should now see ``nltp`` under ``--auth-type`` in ``$ http --help`` output.
+You should now see ``ntlm`` under ``--auth-type`` in ``$ http --help`` output.
 
 
 Usage
