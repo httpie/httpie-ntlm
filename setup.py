@@ -4,17 +4,15 @@ try:
 except ImportError:
     pass
 
-import httpie_ntlm
-
 
 setup(
     name='httpie-ntlm',
-    description=httpie_ntlm.__doc__.strip(),
+    description='NTLM auth plugin for HTTPie.',
     long_description=open('README.rst').read().strip(),
-    version=httpie_ntlm.__version__,
-    author=httpie_ntlm.__author__,
+    version='1.0.2',
+    author='Jakub Roztocil',
     author_email='jakub@roztocil.name',
-    license=httpie_ntlm.__licence__,
+    license='BSD',
     url='https://github.com/jkbr/httpie-ntlm',
     download_url='https://github.com/jkbr/httpie-ntlm',
     py_modules=['httpie_ntlm'],
