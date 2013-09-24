@@ -3,6 +3,7 @@ NTLM auth plugin for HTTPie.
 
 """
 from httpie.plugins import AuthPlugin
+from requests_ntlm import HttpNtlmAuth
 
 
 __version__ = '1.0.2'
@@ -17,5 +18,4 @@ class NTLMAuthPlugin(AuthPlugin):
     description = ''
 
     def get_auth(self, username, password):
-        from requests_ntlm import HttpNtlmAuth
         return HttpNtlmAuth(username, password)
