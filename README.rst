@@ -33,3 +33,9 @@ You can also use `HTTPie sessions <https://github.com/jkbr/httpie#sessions>`_:
     # Re-use auth
     $ http --session=logged-in POST example.org hello=world
 
+Requirements
+------------
+
+- requests-ntlm_
+
+.. _requests-ntlm: https://github.com/requests/requests-ntlm/
