@@ -1,7 +1,7 @@
 httpie-ntlm
 ===========
 
-NTLM auth plugin for `HTTPie <https://github.com/jkbr/httpie>`_.
+NTLM auth plugin for `HTTPie <https://httpie.org/>`_.
 
 
 Installation
@@ -23,7 +23,7 @@ Usage
     $ http --auth-type=ntlm --auth='domain\\username:password' example.org
 
 
-You can also use `HTTPie sessions <https://github.com/jkbr/httpie#sessions>`_:
+You can also use `HTTPie sessions <https://httpie.org/doc#sessions>`_:
 
 .. code-block:: bash
 
